@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exercice2.component.css']
 })
 export class Exercice2Component implements OnInit {
-
+  clickExo2(): void {
+    console.log("Clic");
+  }
   constructor() { }
 
   ngOnInit() {
